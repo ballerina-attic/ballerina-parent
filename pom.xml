@@ -795,6 +795,12 @@
                 <artifactId>jackson-core</artifactId>
                 <version>${jackson-core.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility</artifactId>
+                <version>${awaitility.version}</version>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -888,6 +894,7 @@
     <properties>
         <docker.client.version>1.2.1</docker.client.version>
         <testng.version>6.9.4</testng.version>
+        <awaitility.version>3.0.0</awaitility.version>
         <commons.io.version>2.5</commons.io.version>
         <handlebars.version>4.0.6</handlebars.version>
         <osgi.api.version>6.0.0</osgi.api.version>
